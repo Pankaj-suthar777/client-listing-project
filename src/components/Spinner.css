@@ -1,0 +1,16 @@
+.loading-overlay {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust opacity for better visibility */
+  backdrop-filter: blur(
+    4px
+  ); /* Increased blur effect for a smoother background */
+  z-index: 9999; /* Increased z-index to ensure it covers other elements */
+}
+
+.modal-loading {
+  border-top-color: #3498db; /* Change spinner color to a more appealing one */
+}
