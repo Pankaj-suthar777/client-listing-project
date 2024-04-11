@@ -205,7 +205,7 @@ z-[8888]"
             </Button>
           </div>
         </div>
-        <Drawer open={openDrawer}>
+        <Drawer dismissible={false} open={openDrawer}>
           <DrawerContent>
             <DrawerHeader>
               <DrawerTitle className="text-center">
