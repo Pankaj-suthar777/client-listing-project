@@ -11,7 +11,7 @@ function App() {
       <div className="bg-white ">
         <HeaderComponent />
         <Routes>
-          <Route path="/" Component={<ErrorPage />} />
+          <Route path="/" Component={ErrorPage} />
           <Route path="/:id" Component={Home} />
           <Route path="/map" Component={Map} />
           <Route path="*" Component={ErrorPage} />
