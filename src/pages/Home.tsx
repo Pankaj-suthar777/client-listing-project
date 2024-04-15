@@ -20,13 +20,13 @@ const Home = () => {
           finding what you love.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 max-w-6xl gap-8 mt-[100px]">
+      <div className="grid md:grid-cols-3 max-w-6xl gap-8 mt-[100px] px-6">
         <div className="flex place-items-center flex-col gap-8">
           <img
             src="https://cdn-icons-png.flaticon.com/128/1969/1969501.png"
-            className="sm:h-16 sm:w-16 h-[90px]"
+            className="sm:h-16 sm:w-16 h-14"
           />
-          <p className="text-center text-sm">
+          <p className="text-center text-sm max-w-md sm:p-0 px-6">
             Each home has been renovated to increase the functionality and
             aesthetic. This process includes neutral colors, stylish fixtures
             and an appliance package.
@@ -36,24 +36,23 @@ const Home = () => {
         <div className="flex place-items-center flex-col gap-8">
           <img
             src="https://cdn-icons-png.flaticon.com/128/2607/2607179.png"
-            className="sm:h-16 sm:w-16 h-[90px]"
+            className="sm:h-16 sm:w-16 h-14"
           />
-          <p className="text-center text-sm">
-            Each home has been renovated to increase the functionality and
-            aesthetic. This process includes neutral colors, stylish fixtures
-            and an appliance package.
+          <p className="text-center text-sm max-w-md sm:p-0 px-6">
+            We strive to provide you with a beautifully crafted design so you’ll
+            feel right at home.
           </p>
         </div>
 
         <div className="flex place-items-center flex-col gap-8">
           <img
             src="https://cdn-icons-png.flaticon.com/128/263/263115.png"
-            className="sm:h-16 sm:w-16 h-[90px]"
+            className="sm:h-16 sm:w-16 h-14"
           />
-          <p className="text-center text-sm">
-            Each home has been renovated to increase the functionality and
-            aesthetic. This process includes neutral colors, stylish fixtures
-            and an appliance package.
+          <p className="text-center text-sm max-w-md sm:p-0 px-6">
+            With more than 45,000 properties in dozens of markets, Main Street
+            Renewal is one of the country’s largest providers of single-family
+            homes.
           </p>
         </div>
       </div>
@@ -63,7 +62,7 @@ const Home = () => {
             // src="https://cdn-icons-png.flaticon.com/128/3566/3566861.png"
             // src="https://cdn-icons-png.flaticon.com/128/823/823929.png"
             src="https://cdn-icons-png.flaticon.com/128/7828/7828485.png"
-            //className="sm:h-18 h-16"
+            // className="sm:h-18 h-14 "
           />
         </div>
         <p className="sm:text-4xl text-3xl max-w-[350px] text-center">
