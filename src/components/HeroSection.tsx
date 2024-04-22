@@ -54,7 +54,7 @@ function HeroSection() {
   return (
     <>
       {loading && <Spinner />}
-      <section className="justify-center w-full flex flex-col px-4 items-center relative mb-[200px] ">
+      <section className="justify-center w-full flex flex-col px-4 items-center relative">
         <div className="max-w-[1100px] flex flex-col">
           <h2 className="text-[32px] text-black font-medium sm:py-6 py-5 self-start sm:block hidden">
             {data?.post_title}
