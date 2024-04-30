@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <div className="bg-white ">
+      <div className="bg-white relative">
         <HeaderComponent />
         <Routes>
           <Route path="/" Component={Home} />
